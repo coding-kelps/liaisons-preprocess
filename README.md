@@ -14,7 +14,11 @@ As of now, the dataset is available on [HuggingFace](https://huggingface.co/data
 
 ### Preprocessing Notes
 
-The primary aim of this preprocessing is to create a representative sample of the dataset, thereby reducing computational costs for benchmarking and testing related software.
+The primary aim of this preprocessing is to create representative samples of the dataset, roughly 100 entries, enabling benchmarking with limited computing resources. Secondly, previous models in the field of relation-based argument mining have proven to give misleading benchmarks by achieving satisfactory results in specific domains (Gorur et al., 2024). To circumvent this, the preprocessing will also modify the distribution of claims to achieve a balanced plurality of stances and topics.
+
+### Results
+
+Processing results can be found on HuggingFace at [coding-kelps/liaisons-claim-stance-sample](https://huggingface.co/datasets/coding-kelps/liaisons-claim-stance-sample).
 
 ## About the Development Team
 This project is solely conducted by me, [Guilhem Santé](https://github.com/guilhem-sante). I am a postgraduate student pursuing the MSc in Artificial Intelligence at Heriot-Watt University in Edinburgh.
