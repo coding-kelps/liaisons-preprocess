@@ -1,4 +1,4 @@
-⚠️ This repository is a part of an academical Master Project for the Heriot-Watt University, no third-party contributions are accepted.
+⚠️ This repository is a part of an academical project for the Heriot-Watt University, no third-party contributions are accepted.
 
 # liaisons-preprocess
 
@@ -19,6 +19,20 @@ The primary aim of this preprocessing is to create representative samples of the
 ### Results
 
 Processing results can be found on HuggingFace at [coding-kelps/liaisons-claim-stance-sample](https://huggingface.co/datasets/coding-kelps/liaisons-claim-stance-sample).
+
+## About Contributions
+
+As mentioned earlier, this work is part of an academic project for the validation of my Master's Degree at Heriot-Watt University, preventing me from accepting any contributions until the final release of my project. Thank you for your understanding.
+
+## Associated Works
+
+This work is part of a collection of works whose ultimate goal is to deliver a framework to automatically analyze social media content (e.g., X, Reddit) to extract their argumentative value and predict their relations, leveraging Large Language Models' (LLMs) abilities:
+
+- [liaisons](https://github.com/coding-kelps/liaisons) (the developed client for social media content analysis)
+- [liaisons-claim-stance-sample](https://huggingface.co/datasets/coding-kelps/liaisons-claim-stance-sample) (the resulting sample of this preprocess)
+- [liaisons-experiments](https://github.com/coding-kelps/liaisons-experiments) (the benchmarking framework to evaluate LLMs' relation prediction abilities)
+- [liaisons-experiments-results](https://huggingface.co/datasets/coding-kelps/liaisons-experiments-results) (the obtained results with this benchmarking)
+- [mantis-shrimp](https://github.com/coding-kelps/mantis-shrimp) (the configuration-as-code used to set up my workstation for this project)
 
 ## About the Development Team
 This project is solely conducted by me, [Guilhem Santé](https://github.com/guilhem-sante). I am a postgraduate student pursuing the MSc in Artificial Intelligence at Heriot-Watt University in Edinburgh.
